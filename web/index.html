@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belchi - Structure Packager</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-circles">
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+        <div class="circle c3"></div>
+        <div class="circle c4"></div>
+        <div class="circle c5"></div>
+        <div class="circle c6"></div>
+        <div class="circle c7"></div>
+        <div class="circle c8"></div>
+        <div class="circle c9"></div>
+        <div class="circle c10"></div>
+        <div class="circle c11"></div>
+    </div>
+
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Belchi</a>
+            </div>
+            <ul class="logo powered">
+                <a href="https://linkedin.com/in/pedrofilipeborges" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i> Maded by Pedro Borges    
+                </a>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#download">Downloads</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-taglines">
+                    <span class="hero-tagline">Get;</span>
+                    <span class="hero-tagline">Load;</span>
+                    <span class="hero-tagline">Record...</span>
+                </div>
+                <p class="divisor"></p>
+                <div class="tech-icons">
+                    <div class="tech-icon one">
+                        <i class="fab fa-golang"></i>
+                        <span>Golang</span>
+                    </div>
+                    <div class="tech-icon two">
+                        <i class="fab fa-rust"></i>
+                        <span>Rust</span>
+                    </div>
+                    <div class="tech-icon three">
+                        <i class="fas fa-database"></i>
+                        <span>PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-info">
+                <div class="hero-cta">
+                    <a href="#download" class="cta-button">Download now!</a>
+                </div>
+                <div class="hero-cta">
+                    <p class="cta-info">Available for Windows</p>
+                    <i class="fab fa-windows os-icon"></i>
+                    <p class="cta-info">and Linux</p>
+                    <i class="fab fa-linux os-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About the Project</h2>
+            <p class="about-description">
+                Belchi is an open-source tool designed to speed up the process of creating code structures, optimizing the time it would take to create files one by one. You only need to create the structure once and save it to use later — or, if you prefer, download structure packages shared by the community!
+            </p>
+            
+            <div class="features">
+                <div class="feature-card card-one">
+                    <i class="fas fa-bolt one"></i>
+                    <h3>Work Fast</h3>
+                    <p>The save and load processes are highly optimized for speed and efficiency.</p>
+                </div>
+                <div class="feature-card card-two">
+                    <i class="fas fa-users two"></i>
+                    <h3>Community</h3>
+                    <p>Access ready-made packages from the community using our package manager.</p>
+                </div>
+                <div class="feature-card card-three">
+                    <i class="fas fa-leaf three"></i>
+                    <h3>Easy to Use</h3>
+                    <p>Simple commands and complete documentation make getting started easy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLI Download section -->
+    <section class="download cli" id="download">
+        <div class="container">
+            <h2>Download Belchi (CLI)</h2>
+            <p class="download-description">Download the Belchi CLI (Command Line Interface) to create, load, and upload your packages to the online package library.</p>
+            
+            <div class="download-cards">
+                <div class="download-card">
+                    <i class="fab fa-windows os-icon"></i>
+                    <h3>Belchi CLI<br>for Windows</h3>
+                    <p>Version 1.0.0</p>
+                    <a class="download-button">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+                <div class="download-card">
+                    <i class="fab fa-linux os-icon"></i>
+                    <h3>Belchi CLI<br>for Linux</h3>
+                    <p>Version 1.0.0</p>
+                    <a class="download-button">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- API Download section -->
+    <section class="download api" id="download">
+        <div class="container">
+            <h2>Download Belchi (API)</h2>
+            <p class="download-description">Download the Belchi API to store packages and manage user access. It works as a mirror, configure the settings to have full control of the API system.</p>
+            
+            <div class="download-cards">
+                <div class="download-card">
+                    <i class="fab fa-windows os-icon"></i>
+                    <h3>Belchi API<br>for Windows</h3>
+                    <p>Version 1.0.0</p>
+                    <a class="download-button">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+                <div class="download-card">
+                    <i class="fab fa-linux os-icon"></i>
+                    <h3>Belchi API<br>for Linux</h3>
+                    <p>Version 1.0.0</p>
+                    <a class="download-button">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History section -->
+    <section class="about history" id="history">
+        <div class="container">
+            <h2>Project History</h2>
+            <p class="about-description">
+                <i>Hello! My name is Pedro Borges, I'm a 17-year-old Brazilian programmer. I developed this tool to optimize my workflow and experiment with new systems. In my two years of experience (2023-2025), I hadn't yet developed any relatively large and stable project, so I thought about combining all my knowledge (mainly in Restful API architectures, modularization, code versioning) and solving one of my biggest time wasters during work: creating code structures, like that of an API, for example.</i>
+                <br><br>
+                <i>I first thought about recording folder paths in a JSON file, along with their contents. It worked, but at the time I developed this tool nicknamed Strucx, I still didn't have broad knowledge in anything, just in the language I used, which was Python. I ended up putting the project aside and focused on learning other things.</i>
+                <br><br>
+                <i>I revisited the idea only 8 months later, because of my Technical Course Conclusion Project (TCC) in Systems Development. The initial idea was to make a common cloud system. I confess that I made and remade the project more than 10 times, because every time I found a new or better technology, I would start over! At first I thought it would be bad, but I always learned something new — so much so that today I know how to use frontend frameworks, even though it's not my focus area.</i>
+                <br><br>
+                <i>So I decided to resume the project, now with Golang for the Restful API and Rust for the CLI. The choices were based on the fact that I know how to build APIs well with Golang, besides it being a wonderful language for that, and Rust because of my curiosity and its performance in manipulating files at high speed — ideal for this task.</i>
+                <br><br>
+                <i>Well, that's it! All this story is just to show my knowledge and say that I still don't have a job and I'm looking for one... I hope this project really adds to my portfolio as a fullstack developer. I finished this project in about a week, but I used the knowledge acquired over two years of programming. Thank you for reading! And enjoy the project, it's really very good!</i>
+                <br><br>
+                <i>Contact me on my LinkedIn: <a href="https://linkedin.com/in/pedrofilipeborges">Pedro Borges</a>. OPEN TO WORK!</i>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Belchi</h3>
+                    <p>© 2025 All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/pedroborgesdev/belchi-site" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                        <p>Belchi Project</p>
+                    </a>
+                    <a href="https://linkedin.com/in/pedrofilipeborges" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                        <p>Pedro Borges</p>
+                    </a>
+                    <a href="https://github.com/pedroborgesdev" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                        <p>pedroborgesdev</p>
+                    </a>
+                    <a href="https://instagram.com/pedroborgezs" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                        <p>pedroborgezs</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
